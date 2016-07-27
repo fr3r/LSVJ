@@ -1,0 +1,35 @@
+{
+  "name": "lsvj",
+  "version": "0.1.0",
+  "description": "A little video-jockey tool for LSDJ powered live performances in Javascript.",
+  "main": "lib/lsvj.js",
+  "scripts": {
+    "test": "node test/demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fr3r/LSVJ.git"
+  },
+  "keywords": [
+    "lsvj",
+    "lsdj",
+    "gameboy",
+    "chiptune",
+    "virtual",
+    "jockey"
+  ],
+  "author": "fr3r",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fr3r/LSVJ/issues"
+  },
+  "homepage": "https://github.com/fr3r/LSVJ#readme",
+  "devDependencies": {
+    "python-bridge": "^0.1.0",
+    "tape": "^4.6.0",
+    "tape-catch": "^1.0.6"
+  },
+  "dependencies": {
+    "lodash": "^4.14.0"
+  }
+}
